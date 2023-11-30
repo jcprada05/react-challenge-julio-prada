@@ -3,12 +3,12 @@
   padding: 0;
   background-color: #212121;
   width: 440px;
-  height: 560px;
+  height: 600px;
   color: #e2e2e2;
 }
 p {
   margin: 0;
-  margin-block-start: 0;
+  margin-block-start: 10px;
   margin-block-end: 0em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
@@ -80,5 +80,9 @@ button {
   background-color: #066041;
 }
 .breakify-button:active {
+  background-color: #044730;
+}
+.breakingBadStyle {
+  padding: 0px 6px 0px 6px;
   background-color: #044730;
 }
