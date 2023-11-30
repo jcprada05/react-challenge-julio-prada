@@ -1,9 +1,84 @@
 .main-div {
+  margin: 0;
+  padding: 0;
   background-color: #212121;
-  width: 400px;
-  height: 508px;
-  color: aliceblue;
+  width: 440px;
+  height: 560px;
+  color: #e2e2e2;
 }
 p {
   margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.breaking-bad-div {
+  margin: 0;
+  padding-top: 120px;
+  margin-bottom: 20px;
+  font-size: 70px;
+  font-weight: bolder;
+}
+p .breaking-p {
+  margin: 0;
+  padding: 0;
+}
+p .bad-p {
+  margin: 0;
+  padding: 0;
+}
+.inputs-div {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bolder;
+}
+.inputs-div-fname {
+  width: 160px;
+  text-align: left;
+  margin: 0;
+  margin-right: 5px;
+}
+.inputs-div-lname {
+  width: 160px;
+  text-align: left;
+  margin: 0;
+  margin-left: 5px;
+}
+.inputs-div-input {
+  width: 140px;
+  color: #000;
+  font-weight: bold;
+  background-color: #b2b2b2;
+  padding: 10px 8px;
+}
+input {
+  border-radius: 7px;
+  outline: 0;
+  border: none;
+  margin-top: 5px;
+}
+button {
+  margin-top: 30px;
+  width: 340px;
+  padding: 10px 0;
+  border-radius: 8px;
+  background-color: #044730;
+  outline: 0;
+  border: none;
+}
+
+.breakify-button {
+  background-color: #044730;
+  color: #e2e2e2;
+}
+.breakify-button:hover {
+  background-color: #066041;
+}
+.breakify-button:active {
+  background-color: #044730;
 }
